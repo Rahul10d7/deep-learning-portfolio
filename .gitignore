@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Training artefacts
+logs/
+runs/
+events.out.tfevents.*
+wandb/
+
+# Large data and archives, fetched or generated rather than committed
+*.zip
+*.csv
+*.parquet
+*.gz
+data/raw/
