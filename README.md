@@ -6,29 +6,18 @@ autonomous driving planners.
 
 **Author:** Rahul Cheruku · MSAI
 
-> ### Looking for code?
+> ### A note on code
 >
 > The five projects written up below are graded assignments with course
-> autograders, so their solution files stay private rather than becoming a search
-> result for future students. What is here is the part worth reading: the
-> architectures, the numbers, and what broke.
+> autograders, so their solution files stay in private repositories rather than
+> becoming a search result for future students. What is here instead is the part
+> worth reading: the architectures I chose, the numbers I got, and what broke
+> along the way.
 >
-> **For complete, runnable code I wrote, see these public repositories:**
->
-> | Repository | Code |
-> | --- | --- |
-> | [icu-mortality-xai](https://github.com/Rahul10d7/icu-mortality-xai) | Full SHAP and LIME analysis notebook, LaTeX report source, figure pipeline |
-> | [sepsis-sql-analytics](https://github.com/Rahul10d7/sepsis-sql-analytics) | Ten BigQuery SQL analyses, from cohort building to window functions |
-> | [clinical-notes-nlp](https://github.com/Rahul10d7/clinical-notes-nlp) | scispaCy and medspaCy NER pipeline, Word2Vec, ClinicalBERT embeddings |
-> | [icu-risk-ml-dl](https://github.com/Rahul10d7/icu-risk-ml-dl) | Gradient boosting, PCA and k-means, and a bidirectional LSTM |
-> | [llm-clinical-prompting](https://github.com/Rahul10d7/llm-clinical-prompting) | Prompting strategies and a TF-IDF baseline, on synthetic data |
-> | [mimic-visual-explorer](https://github.com/Rahul10d7/mimic-visual-explorer) | Six visualizations plus an interactive Plotly explorer |
-> | [icu-mortality-tutorial](https://github.com/Rahul10d7/icu-mortality-tutorial) | A teaching notebook with a synthetic demo mode, runs with no credentials |
-> | [market-volatility-ml](https://github.com/Rahul10d7/market-volatility-ml) | End-to-end volatility forecasting pipeline |
->
-> Those are open-ended projects rather than autograded problem sets, so the code
-> is mine to publish. Happy to walk through any of the private implementations
-> directly on request.
+> For an end-to-end project with the full code public, see
+> **[market-volatility-ml](https://github.com/Rahul10d7/market-volatility-ml)**.
+> I am glad to walk through any of the implementations below directly, and can
+> share a private repository with an interviewer on request.
 
 ---
 
@@ -293,12 +282,10 @@ sophisticated one will win.
 
 ## Related repositories
 
-See the [code table at the top](#looking-for-code) for eight public repositories
-with complete, runnable implementations.
+**[market-volatility-ml](https://github.com/Rahul10d7/market-volatility-ml)** is
+public, with the full code and write-up.
 
-The five projects written up on this page keep their source private because they
-are graded assignments with autograders. My healthcare work is public, but with
-one constraint applied throughout: no MIMIC-III data is redistributed and saved
-outputs carrying patient identifiers or clinical note text have been stripped, as
-required by the PhysioNet Credentialed Health Data Use Agreement. The code and
-aggregate results are all there.
+Source repositories for the five projects above are private, since they contain
+graded assignment solutions. My machine learning for healthcare work is private
+for a second reason: it analyzes MIMIC-III critical care data under the PhysioNet
+Credentialed Health Data Use Agreement, which does not permit redistribution.
